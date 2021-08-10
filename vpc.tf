@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source  = "./."
+  source  = "./vpc"
   version = "2.21.0"
 
   name = var.vpc_name
