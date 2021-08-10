@@ -55,6 +55,7 @@ variable "default_route_table_routes" {
     {
       cidr_blocks = "0.0.0.0/0"
     }
+    ]
 }
 
 variable "default_security_group_name" {
@@ -75,6 +76,7 @@ variable "default_security_group_egress" {
       self        = false
       to_port     = 0
     }
+    ]
 }
 
 variable "default_security_group_ingress" {
