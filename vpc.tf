@@ -15,9 +15,8 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "https://github.com/pexiep/10.08.2021/vpc.tf"
+  source = "github.com/pexiep/10.08.2021"
 
-  vpc_name = "hiep vpc"
   name = var.vpc_name
   cidr = var.vpc_cidr
 
