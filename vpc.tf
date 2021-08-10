@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "/pexiep/10.08.2021"
+  source = "./10.08.2021"
 
   vpc_name = "hiep vpc"
   name = var.vpc_name
